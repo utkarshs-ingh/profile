@@ -5,7 +5,7 @@ import github from '../assets/icons/github.svg'
 import phone from '../assets/icons/phone-fill.svg';
 import pin from '../assets/icons/pin.svg'
 import tie from '../assets/icons/tie.svg'
-import mightycoder from '../assets/mightycoder.svg'
+import avatar from '../assets/avatar.svg'
 import { motion } from 'framer-motion'
 
 const Sidebar = () => {
@@ -31,7 +31,7 @@ const Sidebar = () => {
             animate="visible"
 
         >
-            <img src={mightycoder} alt="avatar" className="sidebar__avatar" />
+            <img src={avatar} alt="avatar" className="sidebar__avatar" />
             <div className="sidebar__name">Utkarsh <span>Singh</span> </div>
             <div className="sidebar__item sidebar__title">Full Stack Developer</div>
             <a href='https://drive.google.com/file/d/1LCr_BCbdfUsgx-yXhn5ViCjAqtB2lxI7/view' target="_blank" rel="noopener noreferrer">
