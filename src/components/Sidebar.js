@@ -9,9 +9,6 @@ import mightycoder from '../assets/mightycoder.svg'
 import { motion } from 'framer-motion'
 
 const Sidebar = () => {
-    const handleEmailMe = () => {
-        window.open("mailto:codesumax@gmail.com")
-    }
     const sidebar_variant = {
         hidden: {
             x: '-20vw',
@@ -44,7 +41,7 @@ const Sidebar = () => {
             </a>
             <figure className="sidebar__social-icons my-2">
                 <a href="https://www.linkedin.com/in/utkarsh-singh-592b411b3" target="_blank" rel="noopener noreferrer"><img src={linkedin} alt="linkedin" className="sidebar__icon mr-3" /></a>
-                <a href="github.com/utkarshs-ingh" target="_blank" rel="noopener noreferrer"><img src={github} alt="github" className="sidebar__icon" /></a>
+                <a href="https://github.com/utkarshs-ingh" target="_blank" rel="noopener noreferrer"><img src={github} alt="github" className="sidebar__icon" /></a>
             </figure>
             <div className="sidebar__contact">
                 <div className="sidebar__location">
