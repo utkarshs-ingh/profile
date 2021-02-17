@@ -3,8 +3,9 @@ import Sidebar from './components/Sidebar'
 import Navbar from './components/Navbar';
 import { Route, Redirect, Switch, useLocation } from 'react-router-dom';
 import About from './components/about/About';
-import Resume from './components/Resume';
+import Experience from './components/Experience';
 import Projects from './components/Projects';
+import Skills from './components/Skills';
 import { AnimatePresence } from 'framer-motion'
 
 function App() {
@@ -29,10 +30,11 @@ function App() {
                 <Route exact path="/">
                   <About />
                 </Route>
-                <Route path="/resume">
-                  <Resume />
+                <Route path="/experience">
+                  <Experience />
                 </Route>
                 <Route path="/projects" component={Projects} />
+                <Route path="/skills" component={Skills} />
                 <Route>
                   <Redirect to="/" />
                 </Route>

@@ -1,43 +1,40 @@
-import React from 'react';
-
 import api from '../../assets/icons/api.svg'
 import backend from '../../assets/icons/backend.svg'
 import algo from '../../assets/icons/algo.svg'
 import computer from '../../assets/icons/computer.svg'
-import repair from '../../assets/icons/repair.svg'
 import puzzle from '../../assets/icons/puzzle.svg'
-
+import communication from '../../assets/icons/communication.svg'
 
 const skills = [
     {
         icon: computer,
         title: "Frontend Development",
-        about: "I can build a beautiful and scalable SPA using HTML, CSS and React.js"
+        about: "I can build a beautiful and scalable Frontend using HTML, CSS and React.js"
     },
     {
-        icon: repair,
+        icon: backend,
         title: "Backend  Development",
-        about: "handle database, server, api using and SQLlite",
+        about: "Handle database, server, api using and SQLlite or MongoDB",
     },
     {
         icon: api,
         title: "API Development",
-        about: ["I can develop robust REST API using", <strong key={1}> django-rest-api </strong>]
+        about: "I can develop robust REST API using MERN-rest-api "
     },
     {
         icon: algo,
         title: "Competitive Coder",
-        about: "a daily problem solver in HackerRank and Leetcode"
+        about: "Active competitive programmer with 5 Stars at Codechef"
+    },
+    {
+        icon: communication,
+        title: "Effective communicator",
+        about: "Adept in verbal and written communication skills "
     },
     {
         icon: puzzle,
-        title: "UI/UX designer",
-        about: "minimalistic user interface designer using figma and  framer"
-    },
-    {
-        icon: computer,
-        title: "Whatever",
-        about: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis minima autem!"
+        title: "Passionate Learner",
+        about: "Possess the zeal for learning the new trends and upgrading my skill set"
     },
 ]
 

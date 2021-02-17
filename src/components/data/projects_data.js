@@ -1,81 +1,73 @@
-import tweetme from '../../assets/projects_images/tweetme.PNG'
 import chatapp from '../../assets/projects_images/chatapp.JPG'
-import hardware_store from '../../assets/projects_images/hardware_store.jpg'
 import portfolio from '../../assets/projects_images/portfolio.JPG'
-import new_year from '../../assets/projects_images/new_year.jpg'
-import color_classification from '../../assets/projects_images/color_classification.jpg'
-import blinking from '../../assets/projects_images/blinking.JPG'
+import doodle from '../../assets/projects_images/doodle.png'
 import COVID from '../../assets/projects_images/COVID.jpg'
-import Dev_talks from '../../assets/projects_images/Dev_talks.jpg'
+import air from '../../assets/projects_images/air.png'
+import bot from '../../assets/projects_images/bot.png'
+import fant from '../../assets/projects_images/fant.png'
+import profolio from '../../assets/projects_images/profolio.png'
 
 const data_projects = [
     {
-        name: 'COVID 19 tracker',
+        name: 'Smart-Survillance System ',
         image: COVID,
-        deployed_url: 'https://covid-19-tracker-by-sumit.web.app/',
-        github_url: 'https://github.com/Dey-Sumit/covid-19-tracker',
-        category: ['react.js']
+        deployed_url: 'https://github.com/utkarshs-ingh/Smart-Survillance-System',
+        github_url: 'https://github.com/utkarshs-ingh/Smart-Survillance-System',
+        category: ['py']
     },
 
     {
-        name: 'Dev Talks',
-        image: Dev_talks,
+        name: 'FandT Nature catalogue',
+        image: fant,
         deployed_url: 'https://dev-talks.herokuapp.com/',
-        github_url: 'https://github.com/Dey-Sumit/Dev-talks',
-        category: ['node.js', 'mongoDB', 'react.js']
+        github_url: 'https://github.com/utkarshs-ingh/fandtnature',
+        category: ['mern']
     },
 
     {
         name: 'Realtime Chat App',
         image: chatapp,
-        deployed_url: 'https://sumit-chat.netlify.app/',
-        github_url: 'https://github.com/Dey-Sumit/chat-app-socket.io-react-node',
-        category: ['node', 'socket.io', 'react']
+        deployed_url: 'https://github.com/utkarshs-ingh/Chat-Application',
+        github_url: 'https://github.com/utkarshs-ingh/Chat-Application',
+        category: ['c']
     },
 
     {
-        name: 'Tweeter Clone',
-        image: tweetme,
-        deployed_url: 'http://sumaxtweetme.pythonanywhere.com/',
-        github_url: 'https://github.com/Dey-Sumit/tweetme',
-        category: ['django', 'react']
+        name: 'Air Canvas',
+        image: air,
+        github_url: 'https://github.com/utkarshs-ingh/Air-Canvas',
+        category: ['py']
     },
 
     {
-        name: 'Shop Website',
-        image: hardware_store,
-        deployed_url: '!#',
-        category: ['html_css', 'vanilla']
+        name: 'Doodle.io',
+        image: doodle,
+        github_url: 'https://github.com/utkarshs-ingh/Doodle.io',
+        deployed_url: 'https://mysterious-meadow-03351.herokuapp.com/',
+        category: ['mern']
     },
 
     {
-        name: 'Dev Portfolio',
+        name: 'ProFolio',
+        image: profolio,
+        github_url: 'https://github.com/utkarshs-ingh/ProFolio',
+        deployed_url: 'https://dev-profolio.herokuapp.com/',
+        category: ['mern']
+    },
+
+    {
+        name: 'DOT Discord BOT',
+        image: bot,
+        github_url: 'https://github.com/utkarshs-ingh/DOT-BOT',
+        deployed_url: 'https://github.com/utkarshs-ingh/DOT-BOT',
+        category: ['py']
+    },
+
+    {
+        name: 'crio-profile',
         image: portfolio,
-        deployed_url: 'http://suprateem.herokuapp.com/',
-        category: ['vanilla']
-    },
-
-    {
-        name: 'Bengali New Year',
-        image: new_year,
-        deployed_url: 'https://dey-sumit.github.io/NewYear/',
-        category: ['vanilla']
-    },
-
-    {
-        name: 'Color Classification using tf.js',
-        image: color_classification,
-        deployed_url: '!#',
-        github_url: 'https://github.com/Dey-Sumit/color-classification',
-        category: ['node', 'machine_learning']
-    },
-
-    {
-        name: 'Blinking bubbles',
-        image: blinking,
-        deployed_url: 'https://dey-sumit.github.io/Blinking_Bubbles/',
-        github_url: 'https://github.com/Dey-Sumit/Blinking_Bubbles',
-        category: ['processing']
+        github_url: 'https://github.com/utkarshs-ingh/crio-profile',
+        category: ['mern']
     }
 ]
 

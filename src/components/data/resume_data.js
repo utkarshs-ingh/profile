@@ -1,59 +1,85 @@
 import react from '../../assets/icons/react.svg'
 import python from '../../assets/icons/python.svg'
+import angular from '../../assets/icons/angular.svg'
+import c from '../../assets/icons/c.svg'
+import nodejs from '../../assets/icons/nodejs.svg'
+import sql from '../../assets/icons/sql.svg'
+import html from '../../assets/icons/html.svg'
+import mongo from '../../assets/icons/mongo.svg'
+import cv from '../../assets/icons/cv.svg'
+import linux from '../../assets/icons/linux.svg'
+import gcp from '../../assets/icons/gcp.svg'
+import git from '../../assets/icons/github.svg'
+import postman from '../../assets/icons/post.svg'
 
 const languages = [
     {
+        icon: c,
+        name: 'C++',
+        level: '70'
+    },
+    {
+        icon: nodejs,
+        name: 'Node Js',
+        level: '70'
+    },
+    {
         icon: python,
         name: 'Python',
-        level: '45'
+        level: '60'
     },
     {
-        icon: react,
-        name: 'Java',
+        icon: html,
+        name: 'HTML/CSS',
         level: '60'
     },
     {
         icon: react,
-        name: 'HTML',
-        level: '80'
-    },
-    {
-        icon: react,
-        name: 'react',
+        name: 'React Js',
         level: '60'
     },
     {
-        icon: react,
-        name: 'Django',
-        level: '80'
+        icon: angular,
+        name: 'Angular Js',
+        level: '60'
     },
     {
-        icon: react,
-        name: 'Bootstrap',
-        level: '80'
-    }
+        icon: cv,
+        name: 'OpenCV',
+        level: '60'
+    },
+    {
+        icon: sql,
+        name: 'MySQL',
+        level: '60'
+    },
+    {
+        icon: mongo,
+        name: 'MongoDB ',
+        level: '70'
+    },
 ]
 
 const tools = [
     {
-        icon: react,
-        name: 'Figma',
-        level: '85'
+        icon: git,
+        name: 'Git ',
+        level: '80'
     },
     {
-        icon: react,
-        name: 'Photoshop',
-        level: '45'
+        icon: postman,
+        name: 'Postman',
+        level: '80'
     },
     {
-        icon: react,
-        name: 'Illustrator',
-        level: '60'
+        icon: linux,
+        name: 'Linux ',
+        level: '80'
     },
     {
-        icon: react,
-        name: 'Framer',
-        level: '45'
+        icon: gcp,
+        name: 'Google Cloud Platform ',
+        level: '80'
     },
 
 ]
